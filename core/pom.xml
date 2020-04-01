@@ -12,6 +12,29 @@
   <artifactId>atlas-core</artifactId>
 
   <dependencies>
-
+    <dependency>
+      <groupId>net.avicus</groupId>
+      <artifactId>atlas-utils</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.avicus</groupId>
+      <artifactId>atlas-localization</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.avicus</groupId>
+      <artifactId>magnet-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.avicus</groupId>
+      <artifactId>magnet</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+    </dependency>
   </dependencies>
 </project>
