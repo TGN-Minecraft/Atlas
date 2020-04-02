@@ -1,7 +1,7 @@
 package net.avicus.atlas.localization.text;
 
 import net.avicus.atlas.localization.TextStyle;
-import org.bukkit.ChatColor;
+import net.md_5.bungee.api.ChatColor;
 
 /**
  * Represents a format that takes arguments for localization.

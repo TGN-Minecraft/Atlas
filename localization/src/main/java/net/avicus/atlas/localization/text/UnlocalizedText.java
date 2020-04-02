@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.stream.Collectors;
 import net.avicus.atlas.localization.TextStyle;
+import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.TextComponent;
-import org.bukkit.ChatColor;
 
 /**
  * A simple non-translatable string that can still take arguments and styling.
