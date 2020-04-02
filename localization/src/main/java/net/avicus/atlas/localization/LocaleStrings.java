@@ -10,6 +10,7 @@ import java.util.Optional;
 import lombok.Getter;
 import lombok.ToString;
 import net.avicus.atlas.utils.ChatUtils;
+import net.md_5.bungee.api.ChatColor;
 import org.jdom2.Content;
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -88,6 +89,19 @@ public class LocaleStrings {
       curr = curr.getParentElement();
     }
     return result;
+  }
+
+  /**
+   * Add colors to a message using {@link ChatColor#translateAlternateColorCodes(char, String)}.
+   *
+   * @param message to render colors for
+   * @return a colored message
+   */
+  public static String addColors(String message) {
+    if (message == null) {
+      return null;
+    }
+    return ChatColor.translateAlternateColorCodes('^', message);
   }
 
   public void add(String key, String value) {
