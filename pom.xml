@@ -13,6 +13,8 @@
   <modules>
     <module>utils</module>
     <module>localization</module>
+    <module>document-bridge</module>
+    <module>parsing</module>
     <module>menus</module>
     <module>settings</module>
     <module>api</module>

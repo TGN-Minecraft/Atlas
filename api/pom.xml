@@ -12,6 +12,29 @@
   <artifactId>atlas-api</artifactId>
 
   <dependencies>
-
+    <dependency>
+      <groupId>net.avicus</groupId>
+      <artifactId>magnet-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>net.avicus</groupId>
+      <artifactId>atlas-document-bridge</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.avicus</groupId>
+      <artifactId>atlas-utils</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.avicus</groupId>
+      <artifactId>atlas-localization</artifactId>
+      <version>${project.version}</version>
+    </dependency>
   </dependencies>
 </project>
